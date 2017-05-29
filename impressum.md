@@ -3,7 +3,7 @@ layout: page
 permalink: /impressum/
 ---
 
-##Betreiber / Kontakt
+## Betreiber / Kontakt
 qmedia GmbH
 c/o WERK1
 Grafinger Straße 681671 München
@@ -11,7 +11,7 @@ Tel:+49 89 416 120 10
 Fax:+49 89 416 120 199
 Email: info@qmedia.de
 
-##Geschäftsführer
+### Geschäftsführer
 Erkan Boga
 
 **Handelsregister München**
