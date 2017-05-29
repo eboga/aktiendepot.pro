@@ -1,0 +1,13 @@
+---
+layout: main
+---
+
+Verfügbare Anbieter:
+
+{% assign brokers = site.brokers | sort: "rank" | reverse %}
+
+{% for broker in brokers %}
+
+{{ broker.title }}
+
+{% endfor %}

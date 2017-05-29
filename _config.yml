@@ -1,0 +1,21 @@
+name: aktiendepot.pro
+tagline:
+url: http://www.aktiendepot.pro
+
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
+  parse_block_html: true
+
+gems:
+
+exclude:
+  - deploy.sh
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  brokers:
+    output: true
