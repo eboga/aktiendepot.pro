@@ -1,6 +1,6 @@
 ---
 layout: main
-permalink: /impressum/
+permalink: /kontakt/
 ---
 
 ## Betreiber / Kontakt
