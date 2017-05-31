@@ -3,6 +3,8 @@ layout: main
 permalink: /datenschutz/
 ---
 
+<h1>Datenschutzerklärung</h1>
+
 <h2>Geltungsbereich</h2>
 
 <p>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter qmedia GmbH, c/o WERK1, Grafinger Straße 6, 81671 München, info@qmedia.de, +49 89 416 120 10 auf dieser Website (im folgenden “Angebot”) auf.</p>
