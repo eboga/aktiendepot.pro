@@ -7,6 +7,9 @@ a {
     color: #333;
 }
 
+h1 {
+    line-height: 2.5rem;
+}
 a:hover {
     text-decoration: underline;
 }
