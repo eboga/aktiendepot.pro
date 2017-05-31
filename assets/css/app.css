@@ -49,10 +49,14 @@ ul.menu {
     -webkit-padding-start: 0;
 }
 
-footer ul {
+.footer-links {
+    text-align: right;
+}
+
+.footer ul {
     list-style-type: none;
 }
-footer ul li {
+.footer ul li {
     display: inline;
     margin-right: 1rem;
 }
