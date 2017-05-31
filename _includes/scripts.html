@@ -1,5 +1,8 @@
 <!-- Scripts -->
-<script src="/assets/js/scripts.js"></script>
+<script src="/assets/js/vendor/jquery.js" type="application/javascript"></script>
+<script src="/assets/js/vendor/what-input.js" type="application/javascript"></script>
+<script src="/assets/js/vendor/foundation.js" type="application/javascript"></script>
+<script src="/assets/js/app.js" type="application/javascript"></script>
 
 {% for script in page.scripts %}{% if script contains '//' %}<script src="{{ script }}">{% else %}<script src="/assets/js/{{ script }}">{% endif %}</script>
 {% endfor %}

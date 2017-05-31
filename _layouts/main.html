@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="de">
 
-{% include header.html %}
+{% include head.html %}
 
 <body>
 
-    <div class="pure-g">
-        <div class="pure-u-1-8"><p>Thirds</p></div>
-        <div class="pure-u-7-8">
-            {{ content }}
-        </div>
+<header>
+    {% include header.html %}
+</header>
+<div class="row">
+
+    <div class="large-3 columns">
+        <ul class="vertical menu" data-accordion-menu>
+            <li>
+                <a href="/anbieter/">Anbieter</a>
+                <ul class="menu vertical nested">
+                    <li><a href="/anbieter/banx/">Banx</a></li>
+                    <li><a href="/anbieter/degiro/">Degiro</a></li>
+                    <li><a href="/anbieter/flatex/">Flatex</a></li>
+                </ul>
+            </li>
+            <li><a href="/datenschutz/">Datenschutz</a></li>
+            <li><a href="/impressum/">Impressum</a></li>
+            <li><a href="/kontakt/">Kontakt</a></li>
+        </ul>
+
+    </div>
+    <div class="large-9 columns">
+        {{ content }}
     </div>
 
-{% include footer.html %}
+    {% include footer.html %}
+
+</div>
+
+
 {% include scripts.html %}
 {% include google-analytics.html %}
 
