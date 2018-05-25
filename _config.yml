@@ -9,7 +9,7 @@ kramdown:
   auto_ids: true
   parse_block_html: true
 
-gems:
+plugins:
 
 exclude:
   - deploy.sh
